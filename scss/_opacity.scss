@@ -1,0 +1,28 @@
+.opacity-dark-20 { background-color: rgba($black,.2); }
+.opacity-dark-40 { background-color: rgba($black,.4); }
+.opacity-dark-60 { background-color: rgba($black,.6); }
+.opacity-dark-80 { background-color: rgba($black,.8); }
+
+.opacity-light-20 { background-color: rgba($white,.2); }
+.opacity-light-40 { background-color: rgba($white,.4); }
+.opacity-light-60 { background-color: rgba($white,.6); }
+.opacity-light-80 { background-color: rgba($white,.8); }
+
+.opacity-accent-20 { background-color: rgba($accent,.2); }
+.opacity-accent-40 { background-color: rgba($accent,.4); }
+.opacity-accent-60 { background-color: rgba($accent,.6); }
+.opacity-accent-80 { background-color: rgba($accent,.8); }
+
+.theme-dark {
+    .opacity-dynamic-20 { background-color: rgba($black,.2); }
+    .opacity-dynamic-40 { background-color: rgba($black,.4); }
+    .opacity-dynamic-60 { background-color: rgba($black,.6); }
+    .opacity-dynamic-80 { background-color: rgba($black,.8); }
+}
+
+.theme-light {
+    .opacity-dynamic-20 { background-color: rgba($white,.2); }
+    .opacity-dynamic-40 { background-color: rgba($white,.4); }
+    .opacity-dynamic-60 { background-color: rgba($white,.6); }
+    .opacity-dynamic-80 { background-color: rgba($white,.8); }
+}

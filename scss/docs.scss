@@ -1,0 +1,247 @@
+$white: #fff;
+$black: #000;
+$accent: #d10056;
+
+$cw-pink: #ea005e;
+$cw-red: #da3b01;
+$cw-orange: #f7630c;
+$cw-yellow: #ffb900;
+$cw-green: #60a917;
+$cw-aqua: #00b294;
+$cw-blue: #0078d7;
+
+$red: #e81123;
+$dark-orange: #f03a17;
+$orange: #f7630c;
+$light-orange: #ff8c00;
+$amber: #ffb900;
+$yellow: #fce100;
+$lime: #bad60a;
+$green: #16c60c;
+$sea: #00cc6a;
+$turquoise: #00cea6;
+$teal: #00b7c3;
+$cyan: #00bcf2;
+$blue: #0078d7;
+$cobalt: #0046ff;
+$cornflower: #2849ec;
+$indigo: #4f4bd9;
+$violet: #7160eb;
+$mulberry: #886ce4;
+$deep-purple: #744da9;
+$purple: #881798;
+$light-purple: #b4009e;
+$raspberry: #e3008c;
+$pink: #ea005e;
+
+.brand {
+    font-weight: 700;
+    color: $accent !important;
+}
+
+.promotional-header {
+    background-color: $accent;
+    color: #fff !important;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    .brand {
+        color: #fff !important;
+        font-size: 120px;
+    }
+
+    h1 {
+        margin-top: 50px;
+    }
+
+    h2 {
+        font-weight: 300;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+}
+
+.content {
+    margin-top: 48px;
+}
+
+code {
+    color: #ea005e;
+    background: #fff5f9;
+    padding: 2px 6px;
+    border-radius: 2px;
+}
+
+.theme-dark {
+    code {
+        background: #330014;
+    }
+}
+
+.demo-block {
+    height: 75px;
+    padding: 10px;
+}
+
+.acrylic-preview {
+    background: url('../images/surfacemountains.jpg') no-repeat fixed center;
+    padding: 25px;
+
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+
+        .col {
+            padding: 0;
+        }
+    }
+}
+
+.shadow-preview {
+    background: url('../images/surfacemountains.jpg') no-repeat fixed center;
+    padding: 25px;
+}
+
+.typography-preview {
+    padding: 2rem;
+    
+    h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+    }
+
+    .lead {
+        margin-bottom: 0;
+    }
+}
+
+.color-preview {
+    text-align: center;
+    padding: 2rem;
+
+    .color-block {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        z-index: 200;
+        margin-right: -5px;
+        
+        p {
+            margin: 0;
+            line-height: 100px;
+            text-align: center;
+            color: $white;
+            font-size: 22px;
+            font-weight: 700;
+        }
+    }
+
+    .color-block-lg {
+        width: 125px;
+        height: 125px;
+        box-shadow: 0 0 30px 0 rgba($black,.2) !important;
+        display: inline-block;
+        position: relative;
+        z-index: 500;
+        margin-right: -5px;
+        
+        p {
+            margin: 0;
+            line-height: 125px;
+            text-align: center;
+            color: $white;
+            font-size: 22px;
+            font-weight: 700;
+        }
+    }
+}
+
+.t-color-preview {
+    padding: 2rem;
+    vertical-align: top;
+
+    .preview-set {
+        .color-block {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            position: relative;
+            z-index: 200;
+            margin-right: -5px;
+            box-shadow: 0 0 30px 0 rgba($black,.2) !important;
+            padding: 10px;
+            
+            p {
+                margin: 0;
+                line-height: 1;
+                text-align: center;
+                color: $white;
+                font-size: 22px;
+                font-weight: 700;
+            }
+        }
+
+        .text-block {
+            width: 600px;
+            height: 100px;
+            display: inline-block;
+            padding: 10px;
+            
+            p {
+                margin: 0;
+                line-height: 1;
+                text-align: center;
+                color: $white;
+                font-size: 22px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.text-color-preview {
+    text-align: center;
+    padding: 2rem;
+
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+
+        .col-2 {
+            height: 100px;
+            display: inline-block;
+            position: relative;
+            z-index: 200;
+            box-shadow: 0 0 30px 0 rgba($black,.2) !important;
+            margin-right: -5px;
+            
+            p {
+                margin: 0;
+                line-height: 100px;
+                text-align: center;
+                color: $white;
+                font-size: 22px;
+                font-weight: 700;
+            }
+        }
+    
+        .col-5,
+        .col-10 {
+            height: 100px;
+            display: inline-block;
+            text-align: left;
+
+            p {
+                margin: 0;
+                font-weight: 500;
+
+                &:first-child {
+                    padding: 21px 13px 5px;
+                }
+
+                &:last-child {
+                    padding: 5px 13px 21px;
+                }
+            }
+        }
+    }
+}

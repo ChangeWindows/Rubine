@@ -1,0 +1,23 @@
+$white: #fff;
+$black: #000;
+$accent: #d10056;
+
+$pink: #ea005e;
+$red: #da3b01;
+$orange: #f7630c;
+$yellow: #ffb900;
+$green: #60a917;
+$aqua: #00b294;
+$blue: #0078d7;
+
+// bootstrap imports
+@import 'navbar';
+@import 'jumbotron';
+
+// basic imports
+@import 'colors';
+@import 'dark';
+@import 'acrylic';
+@import 'opacity';
+@import 'shadow';
+@import 'typography';

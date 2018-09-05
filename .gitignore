@@ -1,0 +1,14 @@
+# Ignore folders
+node_modules
+
+# Ignore some common extensions
+*.diff
+*.err
+*.log
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*.zip
+*~

@@ -1,0 +1,16 @@
+{
+  "name": "rubine",
+  "version": "0.1.0",
+  "description": "Bringing Microsoft's Fluent Design System to the web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node-sass scss -o css",
+    "watch": "npm run css && node-sass --watch scss -o css"
+  },
+  "author": "Studio 384",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}

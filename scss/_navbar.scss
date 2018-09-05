@@ -1,0 +1,94 @@
+.navbar {
+    border-radius: 0;
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    .navbar-brand {
+        padding-top: .56rem;
+        padding-bottom: .56rem;
+    }
+
+    .collapse {
+        .navbar-nav {
+            .nav-item {
+                padding: 0;
+
+                &.active {
+                    .nav-link {
+                        &::after {
+                            background-color: $accent;
+                            box-shadow: 0 0 5px rgba($accent,.5);
+                            content: "";
+                            display: block;
+                            height: 2px;
+                            left: 15px;
+                            right: 15px;
+                        }
+                    }
+                }
+
+                .nav-link {
+                    line-height: 2.1;
+                    padding: .39rem .7rem;
+                }
+            }
+        }
+    }
+
+    &.navbar-dark {
+        .navbar-brand {
+        }
+    
+        .collapse {
+            .navbar-nav {
+                .nav-item {
+                    &.active {
+                        .nav-link {
+                            color: #fff;
+                            
+                            &::after {
+                            }
+                        }
+                    }
+    
+                    .nav-link {
+                        color: rgba($white,.8);
+
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.navbar-light {
+        .navbar-brand {
+        }
+    
+        .collapse {
+            .navbar-nav {
+                .nav-item {
+                    &.active {
+                        .nav-link {
+                            color: #000;
+                            
+                            &::after {
+                            }
+                        }
+                    }
+    
+                    .nav-link {
+                        color: rgba($black,.8);
+
+                        &:hover {
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
