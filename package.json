@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "css": "node-sass scss -o css",
-    "watch": "npm run css && node-sass --watch scss -o css"
+    "watch": "npm run css && node-sass --watch scss -o css",
+    "docs": "cd docs && bundle exec jekyll serve"
   },
   "author": "Studio 384",
   "license": "MIT",
