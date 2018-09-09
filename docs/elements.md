@@ -1,9 +1,9 @@
-<?php
+---
+layout: default
+title: Elements
+permalink: /elements/
+---
 
-$page = 'elements';
-
-include('header.php')
-?>
 <div class="content">
     <div class="container">
         <h1>Fluent Elements</h1>
@@ -110,4 +110,3 @@ include('header.php')
         </div>
     </div>
 </div>
-<?php include('footer.php') ?>

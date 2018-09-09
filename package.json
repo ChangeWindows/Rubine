@@ -4,14 +4,23 @@
   "description": "Bringing Microsoft's Fluent Design System to the web",
   "main": "index.js",
   "scripts": {
+    "autoprefixer:css": "postcss -u autoprefixer -r css",
+    "autoprefixer:docs": "postcss -u autoprefixer -r docs/css",
+    "build:css": "node-sass scss -o css && npm run autoprefixer:css",
+    "build:docs": "node-sass scss -o docs/css && npm run autoprefixer:docs",
+    "docs": "cd docs && bundle exec jekyll serve",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css": "node-sass scss -o css",
-    "watch": "npm run css && node-sass --watch scss -o css",
-    "docs": "cd docs && bundle exec jekyll serve"
+    "watch": "npm run build:css && onchange 'scss' -- npm run build:css",
+    "watch:docs": "npm run build:docs && onchange 'scss' -- npm run build:docs",
+    "all": "concurrently \"npm run watch:docs\" \"npm run docs\" \"npm run build:css\""
   },
   "author": "Studio 384",
   "license": "MIT",
   "devDependencies": {
-    "node-sass": "^4.9.3"
+    "autoprefixer": "^9.1.5",
+    "concurrently": "^4.0.1",
+    "node-sass": "^4.9.3",
+    "onchange": "^4.1.0",
+    "postcss-cli": "^6.0.0"
   }
 }

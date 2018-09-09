@@ -1,9 +1,9 @@
-<?php
+---
+layout: default
+title: Components
+permalink: /components/
+---
 
-$page = 'components';
-
-include('header.php')
-?>
 <div class="content">
     <div class="container">
         <h1>Components</h1>
@@ -74,4 +74,3 @@ include('header.php')
         </nav>
     </div>
 </div>
-<?php include('footer.php') ?>

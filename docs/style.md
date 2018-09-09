@@ -1,9 +1,9 @@
-<?php
+---
+layout: default
+title: Style
+permalink: /style/
+---
 
-$page = 'style';
-
-include('header.php')
-?>
 <div class="content">
     <div class="container">
         <h1>Typography</h1>
@@ -309,4 +309,3 @@ include('header.php')
         </div>
     </div>
 </div>
-<?php include('footer.php') ?>

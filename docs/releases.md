@@ -1,14 +1,14 @@
-<?php
+---
+layout: default
+title: Release notes
+permalink: /releases/
+---
 
-$page = 'release';
-
-include('header.php')
-?>
 <div class="content">
     <div class="container">
         <h1>Release notes</h1>
         <p class="lead">We're still in the early stages of Rubine and we don't yet have much to offer, but we'll get there. Eventually. Do you want to contribute? Don't hesitate to go to ChangeWindows/Rubine!</p>
-        <h2>Rubine 0.1 <small>Somewhere in august 2018</small></h2>
+        <h2>Rubine 0.1 <small>Somewhere in september 2018</small></h2>
         <h4>Elements</h4>
         <ul>
             <li>Introduces <code>.theme-[light|dark]</code></li>
@@ -30,4 +30,3 @@ include('header.php')
         </ul>
     </div>
 </div>
-<?php include('footer.php') ?>
