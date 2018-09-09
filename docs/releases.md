@@ -28,5 +28,9 @@ permalink: /releases/
         <ul>
             <li>Introduces a Fluent Design-navbar</li>
         </ul>
+        <h4>And further</h4>
+        <ul>
+            <li>A Jekyll powered documentation</li>
+        </ul>
     </div>
 </div>
