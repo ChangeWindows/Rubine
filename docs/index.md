@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-permalink: /
+permalink: /index/
 ---
 
 <div class="content">
