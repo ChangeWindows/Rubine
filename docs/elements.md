@@ -9,7 +9,7 @@ permalink: /elements/
 A number of the elements in Rubine will use classes that are of the type `[*-]dynamic[-*]`, what this means is that these modifier classes do not have a fixed color. Instead, they look at the theme to decide which color they should take on. The theme classes `.theme-light` and `.theme-dark` have to be aplied to the `body`-tag.
 
 ## Accent color
-Like `[*-]dynamic[-*]`, Rubine will also provide `[*-]accent[-*]`-classes. These classes result in Rubine following the color specified with the `$accent`-variable in the Rubine SASS file. For Rubine 0.1, we haven't yet released this file so you'll have to do with the default blue color Rubine 0.1 is shipping with. Note that the docs use Rubine as accent color and not Blue.
+Like `[*-]dynamic[-*]`, Rubine will also provide `[*-]accent[-*]`-classes. These classes result in Rubine following the color specified with the `$accent`-variable in the Rubine SASS file. Note that the docs use Rubine (`#d10056`) as accent color and not Blue (`#0078d7`).
 
 ## Acrylic
 Rubine introduces the `.acrylic`-class to make your element have an acrylic effect. This effect will add blur and a noise layer to the element.
@@ -31,7 +31,7 @@ Note that the blur effect only works in Microsoft Edge 17+, Apple Safari and Goo
 </div>
 
 ## Opacity
-The `.opacity-[light|dark|accent]-[20|40|60|80]`-can be used to apply a color to the element, mostly to use in combination with `.acrylic`.
+The `.opacity-[light|dark|accent]-[20|40|60|80]`-class can be used to apply a color to the element, mostly to use in combination with `.acrylic`.
 
 <div class="acrylic-preview">
     <div class="row">
@@ -99,7 +99,7 @@ The `.opacity-[light|dark|accent]-[20|40|60|80]`-can be used to apply a color to
 </div>
 
 ## Shadow
-Note that shadows won't be visible most of the time when `.theme-dark` is appliedas they will often appear on dark backgrounds.
+Note that shadows won't be visible most of the time when `.theme-dark` is applied as they will often appear on dark backgrounds.
 
 <div class="shadow-preview">
     <div class="row">
