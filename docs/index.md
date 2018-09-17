@@ -1,7 +1,6 @@
 ---
 layout: home
-title: Home
-permalink: /index/
+title: Rubine
 ---
 
 <div class="content">

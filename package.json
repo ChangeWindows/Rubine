@@ -4,7 +4,7 @@
   "description": "Bringing Microsoft's Fluent Design System to the web",
   "main": "index.js",
   "scripts": {
-    "all": "npm-run-all --parallel docs:serve compile --serial prefix:css prefix:docs",
+    "all": "npm-run-all --parallel docs:serve compile",
     "compile": "npm-run-all --parallel watch:**",
     "compile:css": "node-sass scss -o css --output-style compressed & npm run prefix:css",
     "compile:docs": "node-sass scss -o docs/css --output-style compressed & npm run prefix:docs",

@@ -76,3 +76,11 @@ In Rubine, the navbar imitates in-app acrylic thanks to the classes mentioned in
         </div>
     </div>
 </nav>
+
+## Navview
+
+<div class="alert alert-warning">The Navview-component is not complete in this release.</div>
+
+The Navigation View component, or Navview for short, is a navigation system often used in the Microsoft Design Language. There are multiple different behaviors to it as well as a number of different looks (Pane and Bar, or better known as the hambruger menu and a more classic menu bar). If you are looking for a Bar-like implementation, please see the Navbar component. The Navview component focuses on the Left Pane implementation.
+
+As an example you can see the navigation used on this documentation. As of Rubine 0.1, there are 2 modes to the Navview. The default behavior as used on all documentation pages or the `.navview-cover`-behavior as used on the home page of our documentation. The first will move the content to the right while the second will cover the content, which also shows off the acrylic material.

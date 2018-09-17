@@ -14,7 +14,7 @@ Like `[*-]dynamic[-*]`, Rubine will also provide `[*-]accent[-*]`-classes. These
 ## Acrylic
 Rubine introduces the `.acrylic`-class to make your element have an acrylic effect. This effect will add blur and a noise layer to the element.
 
-Note that the blur effect only works in Microsoft Edge 17+, Apple Safari and Google Chrome with Experimental Web Features enabled. For more information see [Can I Use](https://caniuse.com/#feat=css-backdrop-filter).
+Note that the blur effect only works in Microsoft Edge 17+, Apple Safari and Google Chrome with Experimental Web Features enabled. For more information see [Can I Use](https://caniuse.com/#feat=css-backdrop-filter). Rubine will currently ignore the lack of support for the `backdrop-filter`-property and apply no additional styling, future versions of Rubine will force the background into a solid color when used with the `.opacity-*-*`-classes.
 
 <div class="acrylic-preview">
     <div class="row">

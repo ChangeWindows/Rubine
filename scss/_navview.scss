@@ -1,0 +1,111 @@
+.navview-wrapper {
+    padding-left: 48px;
+    transition: all .2s ease;
+
+    &.toggled {
+        padding-left: 320px;
+
+        .navview {
+            width: 320px;
+        }
+
+        .navview-content {
+            .navbar {
+                &.fixed-top {
+                    margin-left: 320px;
+                }
+            }
+        }
+    }
+
+    &.navview-cover {
+        &.toggled {
+            padding-left: 48px;
+        }
+
+        .navview-content {
+            .navbar {
+                &.fixed-top {
+                    margin-left: 48px;
+                }
+            }
+        }
+    }
+
+    .navview {
+        z-index: 1500;
+        margin-left: -320px;
+        left: 320px;
+        width: 48px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        transition: all .2s ease;
+        
+        .navview-nav {
+            margin: 0;
+            padding: 0;
+            top: 0;
+            width: 100%;
+            list-style: none;
+            position: absolute;
+            overflow: hidden;
+            transition: all .2s ease;
+
+            li {
+                overflow: hidden;
+                display: block;
+                width: 320px;
+
+                a {
+                    display: block;
+                    text-decoration: none;
+                    color: #333;
+                    overflow: hidden;
+                    border: 1px solid transparent;
+                    transition: all .2s ease;
+                    height: 48px;
+                    line-height: 48px;
+
+                    &:hover {
+                        text-decoration: none;
+                        background: rgba(0,0,0,.05);
+                        border: 1px solid rgba(0,0,0,.15);
+                    }
+
+                    &:active,
+                    &:focus {
+                        text-decoration: none;
+                    }
+
+                    &.active {
+                        .sn-icon {
+                            padding-left: 12px;
+                            padding-right: 16px;
+                            border-left: 4px solid $accent;
+                        }
+                    }
+
+                    &.navview-toggle {
+                        width: 48px;
+                    }
+
+                    .sn-icon {
+                        padding-left: 16px;
+                        padding-right: 16px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+    .navview-content {
+        .navbar {
+            &.fixed-top {
+                transition: all .2s ease;
+                margin-left: 48px;
+            }
+        }
+    }
+}
