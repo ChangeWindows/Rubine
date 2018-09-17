@@ -9,8 +9,8 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-9ralMzdK1QYsk4yBY680hmsb4/hJ98xK3w0TIaJ3ll4POWpWUYaA2bRjGGujGT8w" crossorigin="anonymous">
-        <link rel="stylesheet" href="{{ "../css/rubine.css" | absolute }}">
-        <link rel="stylesheet" href="{{ "../css/docs.css" | absolute }}">
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/rubine.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/docs.css">
 
         <title>{{ page.title }} &middot; Rubine</title>
     </head>
@@ -23,48 +23,48 @@
                         <a href="#navview-toggle" id="navview-toggle" class="navview-toggle"><i class="fal fa-bars sn-icon"></i></a>
                     </li>
                     <li>
-                        <a href="{{ "../" | absolute }}" class="{% if page.title == "Rubine" %}active{% endif %}"><i class="fal fa-home sn-icon"></i> Rubine</a>
+                        <a href="{{ site.baseurl }}/" class="{% if page.title == "Rubine" %}active{% endif %}"><i class="fal fa-home sn-icon"></i> Rubine</a>
                     </li>
                     <li>
-                        <a href="{{ "../elements" | absolute }}" class="{% if page.title == "Elements" %}active{% endif %}"><i class="fal fa-object-group sn-icon"></i> Elements</a>
+                        <a href="{{ site.baseurl }}/elements" class="{% if page.title == "Elements" %}active{% endif %}"><i class="fal fa-object-group sn-icon"></i> Elements</a>
                     </li>
                     <li>
-                        <a href="{{ "../style" | absolute }}" class="{% if page.title == "Style" %}active{% endif %}"><i class="fal fa-swatchbook sn-icon"></i> Style</a>
+                        <a href="{{ site.baseurl }}/style" class="{% if page.title == "Style" %}active{% endif %}"><i class="fal fa-swatchbook sn-icon"></i> Style</a>
                     </li>
                     <li>
-                        <a href="{{ "../components" | absolute }}" class="{% if page.title == "Components" %}active{% endif %}"><i class="fal fa-cube sn-icon"></i> Components</a>
+                        <a href="{{ site.baseurl }}/components" class="{% if page.title == "Components" %}active{% endif %}"><i class="fal fa-cube sn-icon"></i> Components</a>
                     </li>
                     <li>
-                        <a href="{{ "../releases" | absolute }}" class="{% if page.title == "Release notes" %}active{% endif %}"><i class="fal fa-map-signs sn-icon"></i> Release notes</a>
+                        <a href="{{ site.baseurl }}/releases" class="{% if page.title == "Release notes" %}active{% endif %}"><i class="fal fa-map-signs sn-icon"></i> Release notes</a>
                     </li>
                     <li>
-                        <a href="{{ "../about" | absolute }}" class="{% if page.title == "About" %}active{% endif %}"><i class="fal fa-info-circle sn-icon"></i> About</a>
+                        <a href="{{ site.baseurl }}/about" class="{% if page.title == "About" %}active{% endif %}"><i class="fal fa-info-circle sn-icon"></i> About</a>
                     </li>
                 </ul>
             </div>
             <div class="navview-content">
                 <nav class="navbar navbar-expand-lg navbar-light fixed-top acrylic opacity-dynamic-80">
                     <div class="container">
-                        <a class="navbar-brand brand" href="{{ "../" | absolute }}">Rubine</a>
+                        <a class="navbar-brand brand" href="{{ site.baseurl }}/">Rubine</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbar">
                             <ul class="navbar-nav">
                                 <li class="nav-item{% if page.title == "Elements" %} active{% endif %}">
-                                    <a class="nav-link" href="{{ "../elements" | absolute }}">Elements</a>
+                                    <a class="nav-link" href="{{ site.baseurl }}/elements">Elements</a>
                                 </li>
                                 <li class="nav-item{% if page.title == "Style" %} active{% endif %}">
-                                    <a class="nav-link" href="{{ "../style" | absolute }}">Style</a>
+                                    <a class="nav-link" href="{{ site.baseurl }}/style">Style</a>
                                 </li>
                                 <li class="nav-item{% if page.title == "Components" %} active{% endif %}">
-                                    <a class="nav-link" href="{{ "../components" | absolute }}">Components</a>
+                                    <a class="nav-link" href="{{ site.baseurl }}/components">Components</a>
                                 </li>
                                 <li class="nav-item{% if page.title == "Release notes" %} active{% endif %}">
-                                    <a class="nav-link" href="{{ "../releases" | absolute }}">Release notes</a>
+                                    <a class="nav-link" href="{{ site.baseurl }}/releases">Release notes</a>
                                 </li>
                                 <li class="nav-item{% if page.title == "About" %} active{% endif %}">
-                                    <a class="nav-link" href="{{ "../about" | absolute }}">About</a>
+                                    <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
                                 </li>
                             </ul>
                         </div>

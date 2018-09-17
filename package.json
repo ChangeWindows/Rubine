@@ -8,7 +8,7 @@
     "compile": "npm-run-all --parallel watch:**",
     "compile:css": "node-sass scss -o css --output-style compressed & npm run prefix:css",
     "compile:docs": "node-sass scss -o docs/css --output-style compressed & npm run prefix:docs",
-    "docs:serve": "cd docs && bundle exec jekyll serve",
+    "docs:serve": "cd docs && bundle exec jekyll serve --baseurl ''",
     "prefix:css": "postcss -u autoprefixer -r css/*.css",
     "prefix:docs": "postcss -u autoprefixer -r docs/css/*.css",
     "test": "echo \"Error: no test specified\" && exit 1",
