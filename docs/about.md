@@ -41,3 +41,7 @@ That would be MIT. :)
 >LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 >OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 >SOFTWARE.
+
+#### Are you aware that the documentation has 2 different menus with the same links?
+
+No.

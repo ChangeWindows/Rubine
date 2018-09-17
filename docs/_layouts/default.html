@@ -23,45 +23,48 @@
                         <a href="#navview-toggle" id="navview-toggle" class="navview-toggle"><i class="fal fa-bars sn-icon"></i></a>
                     </li>
                     <li>
-                        <a href="../" class="{% if page.title == "Rubine" %}active{% endif %}"><i class="fal fa-home sn-icon"></i> Rubine</a>
+                        <a href="{{ "../" | absolute }}" class="{% if page.title == "Rubine" %}active{% endif %}"><i class="fal fa-home sn-icon"></i> Rubine</a>
                     </li>
                     <li>
-                        <a href="../elements" class="{% if page.title == "Elements" %}active{% endif %}"><i class="fal fa-object-group sn-icon"></i> Elements</a>
+                        <a href="{{ "../elements" | absolute }}" class="{% if page.title == "Elements" %}active{% endif %}"><i class="fal fa-object-group sn-icon"></i> Elements</a>
                     </li>
                     <li>
-                        <a href="../style" class="{% if page.title == "Style" %}active{% endif %}"><i class="fal fa-swatchbook sn-icon"></i> Style</a>
+                        <a href="{{ "../style" | absolute }}" class="{% if page.title == "Style" %}active{% endif %}"><i class="fal fa-swatchbook sn-icon"></i> Style</a>
                     </li>
                     <li>
-                        <a href="../components" class="{% if page.title == "Components" %}active{% endif %}"><i class="fal fa-cube sn-icon"></i> Components</a>
+                        <a href="{{ "../components" | absolute }}" class="{% if page.title == "Components" %}active{% endif %}"><i class="fal fa-cube sn-icon"></i> Components</a>
                     </li>
                     <li>
-                        <a href="../releases" class="{% if page.title == "Release notes" %}active{% endif %}"><i class="fal fa-map-signs sn-icon"></i> Release notes</a>
+                        <a href="{{ "../releases" | absolute }}" class="{% if page.title == "Release notes" %}active{% endif %}"><i class="fal fa-map-signs sn-icon"></i> Release notes</a>
                     </li>
                     <li>
-                        <a href="../about" class="{% if page.title == "About" %}active{% endif %}"><i class="fal fa-info-circle sn-icon"></i> About</a>
+                        <a href="{{ "../about" | absolute }}" class="{% if page.title == "About" %}active{% endif %}"><i class="fal fa-info-circle sn-icon"></i> About</a>
                     </li>
                 </ul>
             </div>
             <div class="navview-content">
                 <nav class="navbar navbar-expand-lg navbar-light fixed-top acrylic opacity-dynamic-80">
                     <div class="container">
-                        <a class="navbar-brand brand" href="../index">Rubine</a>
+                        <a class="navbar-brand brand" href="{{ "../" | absolute }}">Rubine</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbar">
                             <ul class="navbar-nav">
                                 <li class="nav-item{% if page.title == "Elements" %} active{% endif %}">
-                                    <a class="nav-link" href="../elements">Elements</a>
+                                    <a class="nav-link" href="{{ "../elements" | absolute }}">Elements</a>
                                 </li>
                                 <li class="nav-item{% if page.title == "Style" %} active{% endif %}">
-                                    <a class="nav-link" href="../style">Style</a>
+                                    <a class="nav-link" href="{{ "../style" | absolute }}">Style</a>
                                 </li>
                                 <li class="nav-item{% if page.title == "Components" %} active{% endif %}">
-                                    <a class="nav-link" href="../components">Components</a>
+                                    <a class="nav-link" href="{{ "../components" | absolute }}">Components</a>
                                 </li>
                                 <li class="nav-item{% if page.title == "Release notes" %} active{% endif %}">
-                                    <a class="nav-link" href="../releases">Release notes</a>
+                                    <a class="nav-link" href="{{ "../releases" | absolute }}">Release notes</a>
+                                </li>
+                                <li class="nav-item{% if page.title == "About" %} active{% endif %}">
+                                    <a class="nav-link" href="{{ "../about" | absolute }}">About</a>
                                 </li>
                             </ul>
                         </div>
