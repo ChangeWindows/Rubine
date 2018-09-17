@@ -8,9 +8,7 @@ permalink: /components/
 
 <p class="lead">Rubine is a project by ChangeWindows with the goal of bringing the Microsoft Fluent Design System to Bootstrap. This project is in a very early stage and there is still much to do. But check out what we already have.</p>
 
-## Navbar
-
-### Acrylic navbar
+## Navigation Bar
 
 <div class="alert alert-warning">The Navbar-component is not complete in this release.</div>
 
@@ -77,7 +75,7 @@ In Rubine, the navbar imitates in-app acrylic thanks to the classes mentioned in
     </div>
 </nav>
 
-## Navview
+## Navigation Pane
 
 <div class="alert alert-warning">The Navview-component is not complete in this release.</div>
 

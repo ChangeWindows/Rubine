@@ -257,3 +257,13 @@ code {
         }
     }
 }
+
+.theme-dark {
+    .btn {
+        &.btn-light {
+            &.disabled {
+                color: #777;
+            }
+        }
+    }
+}

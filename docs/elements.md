@@ -8,6 +8,8 @@ permalink: /elements/
 ## Themes
 A number of the elements in Rubine will use classes that are of the type `[*-]dynamic[-*]`, what this means is that these modifier classes do not have a fixed color. Instead, they look at the theme to decide which color they should take on. The theme classes `.theme-light` and `.theme-dark` have to be aplied to the `body`-tag.
 
+As an example, the `.theme-dark`-class has been applied to the home page of this documentation while all other pages use `.theme-light`, there is no other difference in the code between the 2 pages.
+
 ## Accent color
 Like `[*-]dynamic[-*]`, Rubine will also provide `[*-]accent[-*]`-classes. These classes result in Rubine following the color specified with the `$accent`-variable in the Rubine SASS file. Note that the docs use Rubine (`#d10056`) as accent color and not Blue (`#0078d7`).
 
