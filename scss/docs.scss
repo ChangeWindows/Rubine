@@ -52,6 +52,7 @@ $pink: #ea005e;
 
     h1 {
         margin-top: 50px;
+        margin-bottom: 0;
     }
 
     h2 {
@@ -59,6 +60,17 @@ $pink: #ea005e;
         margin-top: 0;
         margin-bottom: 50px;
     }
+
+    h6 {
+        text-transform: initial;
+        margin-bottom: 60px;
+        font-weight: 500;
+    }
+}
+
+.btn-download {
+    margin-top: 25px;
+    border-radius: 0;
 }
 
 .navview-content {
