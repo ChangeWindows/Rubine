@@ -1,19 +1,46 @@
 $white: #fff;
+$light-grey: #ccc;
 $grey: #888;
+$dark-grey: #333;
 $black: #000;
 $accent: #d10056;
 
-$pink: #ea005e;
-$red: #da3b01;
+$cw-pink: #ea005e;
+$cw-red: #da3b01;
+$cw-orange: #f7630c;
+$cw-yellow: #ffb900;
+$cw-green: #60a917;
+$cw-aqua: #00b294;
+$cw-blue: #0078d7;
+
+$red: #e81123;
+$dark-orange: #f03a17;
 $orange: #f7630c;
-$yellow: #ffb900;
-$green: #60a917;
-$aqua: #00b294;
+$light-orange: #ff8c00;
+$amber: #ffb900;
+$yellow: #fce100;
+$lime: #bad60a;
+$green: #16c60c;
+$sea: #00cc6a;
+$turquoise: #00cea6;
+$teal: #00b7c3;
+$cyan: #00bcf2;
 $blue: #0078d7;
+$cobalt: #0046ff;
+$cornflower: #2849ec;
+$indigo: #4f4bd9;
+$violet: #7160eb;
+$mulberry: #886ce4;
+$deep-purple: #744da9;
+$purple: #881798;
+$light-purple: #b4009e;
+$raspberry: #e3008c;
+$pink: #ea005e;
 
 // bootstrap imports
 @import 'navbar';
 @import 'jumbotron';
+@import 'btn';
 
 // basic imports
 @import 'colors';

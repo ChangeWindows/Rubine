@@ -8,6 +8,62 @@ permalink: /components/
 
 <p class="lead">Rubine is a project by ChangeWindows with the goal of bringing the Microsoft Fluent Design System to Bootstrap. This project is in a very early stage and there is still much to do. But check out what we already have.</p>
 
+## Buttons
+
+### Default buttons
+
+<button type="button" class="btn btn-accent">Accent</button>
+<button type="button" class="btn btn-dynamic">Dynamic</button>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+<button type="button" class="btn btn-link">Link</button>
+
+```html
+<button type="button" class="btn btn-accent">Accent</button>
+<button type="button" class="btn btn-dynamic">Dynamic</button>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+<button type="button" class="btn btn-link">Link</button>
+```
+
+### Outlines
+
+<button type="button" class="btn btn-outline-accent">Accent</button>
+<button type="button" class="btn btn-outline-dynamic">Dynamic</button>
+<button type="button" class="btn btn-outline-primary">Primary</button>
+<button type="button" class="btn btn-outline-secondary">Secondary</button>
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+<button type="button" class="btn btn-outline-info">Info</button>
+<button type="button" class="btn btn-outline-light">Light</button>
+<button type="button" class="btn btn-outline-dark">Dark</button>
+
+```html
+<button type="button" class="btn btn-outline-accent">Accent</button>
+<button type="button" class="btn btn-outline-dynamic">Dynamic</button>
+<button type="button" class="btn btn-outline-primary">Primary</button>
+<button type="button" class="btn btn-outline-secondary">Secondary</button>
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+<button type="button" class="btn btn-outline-info">Info</button>
+<button type="button" class="btn btn-outline-light">Light</button>
+<button type="button" class="btn btn-outline-dark">Dark</button>
+```
+
 ## Navigation Bar
 
 <div class="alert alert-warning">The Navbar-component is not complete in this release.</div>

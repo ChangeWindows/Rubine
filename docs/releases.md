@@ -23,7 +23,8 @@ permalink: /releases/
 * Introduces `.lead`
 
 #### Components
-* Introduces a Fluent Design-navbar
+* Adds support for `.navbar`
+* Adds support for `.btn`
 
 #### And further
 * A Jekyll powered documentation

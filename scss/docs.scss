@@ -1,4 +1,6 @@
 $white: #fff;
+$light-grey: #ccc;
+$dark-grey: #333;
 $black: #000;
 $accent: #d10056;
 
@@ -69,8 +71,7 @@ $pink: #ea005e;
 }
 
 .btn-download {
-    margin-top: 25px;
-    border-radius: 0;
+    margin-top: 50px;
 }
 
 .navview-content {
@@ -253,16 +254,6 @@ code {
                 &:last-child {
                     padding: 5px 13px 21px;
                 }
-            }
-        }
-    }
-}
-
-.theme-dark {
-    .btn {
-        &.btn-light {
-            &.disabled {
-                color: #777;
             }
         }
     }

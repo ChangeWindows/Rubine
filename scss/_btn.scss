@@ -1,0 +1,138 @@
+.btn {
+    border-radius: 0;
+    border: 2px solid transparent;
+    padding: .25rem, .75rem;
+
+    &:focus,
+    &.focus {
+        box-shadow: none;
+    }
+
+    &:hover {
+        border-color: rgba(0,0,0,.2);
+    }
+
+    &.btn-primary,
+    &.btn-outline-primary:hover {
+        background-color: $blue;
+        color: #fff;
+    }
+
+    &.btn-outline-primary {
+        color: $blue;
+        border-color: $blue;
+    }
+
+    &.btn-secondary,
+    &.btn-outline-secondary:hover {
+        background-color: $light-grey;
+        color: #111;
+    }
+
+    &.btn-outline-secondary {
+        color: $light-grey;
+        border-color: $light-grey;
+    }
+
+    &.btn-success,
+    &.btn-outline-success:hover {
+        background-color: $green;
+        color: #fff;
+    }
+
+    &.btn-outline-success {
+        color: $green;
+        border-color: $green;
+    }
+
+    &.btn-danger,
+    &.btn-outline-danger:hover {
+        background-color: $red;
+        color: #fff;
+    }
+
+    &.btn-outline-danger {
+        color: $red;
+        border-color: $red;
+    }
+
+    &.btn-warningy,
+    &.btn-outline-warning:hover {
+        background-color: $amber;
+        color: #fff;
+    }
+
+    &.btn-outline-warning {
+        color: $amber;
+        border-color: $amber;
+    }
+
+    &.btn-info,
+    &.btn-outline-info:hover {
+        background-color: $turquoise;
+        color: #fff;
+    }
+
+    &.btn-outline-info {
+        color: $turquoise;
+        border-color: $turquoise;
+    }
+
+    &.btn-light,
+    &.btn-outline-light:hover {
+        background-color: #eee;
+        color: #222;
+    }
+
+    &.btn-outline-light {
+        color: #eee;
+        border-color: #eee;
+    }
+
+    &.btn-dark,
+    &.btn-outline-dark:hover {
+        background-color: #111;
+        color: #fff;
+
+        &:hover {
+            border-color: rgba(255,255,255,.3);
+        }
+    }
+
+    &.btn-outline-dark {
+        color: #111;
+        border-color: #111;
+    }
+
+    &.btn-link {
+        color: $accent;
+
+        &:hover {
+            border-color: transparent;
+        }
+    }
+
+    &.btn-accent,
+    &.btn-outline-accent:hover {
+        background-color: $accent;
+        color: #fff;
+    }
+
+    &.btn-outline-accent {
+        background-color: transparent;
+        color: $accent;
+        border-color: $accent;
+    }
+
+    &.btn-dynamic,
+    &.btn-outline-dynamic:hover {
+        background-color: $light-grey;
+        color: #111;
+    }
+
+    &.btn-outline-dynamic {
+        background-color: transparent;
+        color: $light-grey;
+        border-color: $light-grey;
+    }
+}

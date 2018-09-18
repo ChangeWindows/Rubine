@@ -51,4 +51,18 @@
             }
         }
     }
+
+    .btn {
+        &.btn-dynamic,
+        &.btn-outline-dynamic:hover {
+            background-color: $dark-grey;
+            color: #fff;
+        }
+    
+        &.btn-outline-dynamic {
+            background-color: transparent;
+            color: $dark-grey;
+            border-color: $dark-grey;
+        }
+    }
 }
