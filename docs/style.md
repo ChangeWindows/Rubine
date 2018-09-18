@@ -62,15 +62,15 @@ Fluent Design has a broad set of colors, all of them are available to you with R
     <div class="color-block bg-red-200"><p>200</p></div>
 </div>
 
-### `.bg-dark-orange-*`
+### `.bg-vermilion-*`
 <div class="jumbotron color-preview">
-    <div class="color-block bg-dark-orange-800"><p>800</p></div>
-    <div class="color-block bg-dark-orange-700"><p>700</p></div>
-    <div class="color-block bg-dark-orange-600"><p>600</p></div>
-    <div class="color-block-lg bg-dark-orange-500"><p>500</p></div>
-    <div class="color-block bg-dark-orange-400"><p>400</p></div>
-    <div class="color-block bg-dark-orange-300"><p>300</p></div>
-    <div class="color-block bg-dark-orange-200"><p>200</p></div>
+    <div class="color-block bg-vermilion-800"><p>800</p></div>
+    <div class="color-block bg-vermilion-700"><p>700</p></div>
+    <div class="color-block bg-vermilion-600"><p>600</p></div>
+    <div class="color-block-lg bg-vermilion-500"><p>500</p></div>
+    <div class="color-block bg-vermilion-400"><p>400</p></div>
+    <div class="color-block bg-vermilion-300"><p>300</p></div>
+    <div class="color-block bg-vermilion-200"><p>200</p></div>
 </div>
 
 ### `.bg-orange-*`
@@ -150,6 +150,17 @@ Fluent Design has a broad set of colors, all of them are available to you with R
     <div class="color-block bg-sea-200"><p>200</p></div>
 </div>
 
+### `.bg-caribbean-*`
+<div class="jumbotron color-preview">
+    <div class="color-block bg-caribbean-800"><p>800</p></div>
+    <div class="color-block bg-caribbean-700"><p>700</p></div>
+    <div class="color-block bg-caribbean-600"><p>600</p></div>
+    <div class="color-block-lg bg-caribbean-500"><p>500</p></div>
+    <div class="color-block bg-caribbean-400"><p>400</p></div>
+    <div class="color-block bg-caribbean-300"><p>300</p></div>
+    <div class="color-block bg-caribbean-200"><p>200</p></div>
+</div>
+
 ### `.bg-turquoise-*`
 <div class="jumbotron color-preview">
     <div class="color-block bg-turquoise-800"><p>800</p></div>
@@ -159,17 +170,6 @@ Fluent Design has a broad set of colors, all of them are available to you with R
     <div class="color-block bg-turquoise-400"><p>400</p></div>
     <div class="color-block bg-turquoise-300"><p>300</p></div>
     <div class="color-block bg-turquoise-200"><p>200</p></div>
-</div>
-
-### `.bg-teal-*`
-<div class="jumbotron color-preview">
-    <div class="color-block bg-teal-800"><p>800</p></div>
-    <div class="color-block bg-teal-700"><p>700</p></div>
-    <div class="color-block bg-teal-600"><p>600</p></div>
-    <div class="color-block-lg bg-teal-500"><p>500</p></div>
-    <div class="color-block bg-teal-400"><p>400</p></div>
-    <div class="color-block bg-teal-300"><p>300</p></div>
-    <div class="color-block bg-teal-200"><p>200</p></div>
 </div>
 
 ### `.bg-cyan-*`
@@ -205,26 +205,26 @@ Fluent Design has a broad set of colors, all of them are available to you with R
     <div class="color-block bg-cobalt-200"><p>200</p></div>
 </div>
 
-### `.bg-cornflower-*`
+### `.bg-palatinate-*`
 <div class="jumbotron color-preview">
-    <div class="color-block bg-cornflower-800"><p>800</p></div>
-    <div class="color-block bg-cornflower-700"><p>700</p></div>
-    <div class="color-block bg-cornflower-600"><p>600</p></div>
-    <div class="color-block-lg bg-cornflower-500"><p>500</p></div>
-    <div class="color-block bg-cornflower-400"><p>400</p></div>
-    <div class="color-block bg-cornflower-300"><p>300</p></div>
-    <div class="color-block bg-cornflower-200"><p>200</p></div>
+    <div class="color-block bg-palatinate-800"><p>800</p></div>
+    <div class="color-block bg-palatinate-700"><p>700</p></div>
+    <div class="color-block bg-palatinate-600"><p>600</p></div>
+    <div class="color-block-lg bg-palatinate-500"><p>500</p></div>
+    <div class="color-block bg-palatinate-400"><p>400</p></div>
+    <div class="color-block bg-palatinate-300"><p>300</p></div>
+    <div class="color-block bg-palatinate-200"><p>200</p></div>
 </div>
 
-### `.bg-indigo-*`
+### `.bg-iris-*`
 <div class="jumbotron color-preview">
-    <div class="color-block bg-indigo-800"><p>800</p></div>
-    <div class="color-block bg-indigo-700"><p>700</p></div>
-    <div class="color-block bg-indigo-600"><p>600</p></div>
-    <div class="color-block-lg bg-indigo-500"><p>500</p></div>
-    <div class="color-block bg-indigo-400"><p>400</p></div>
-    <div class="color-block bg-indigo-300"><p>300</p></div>
-    <div class="color-block bg-indigo-200"><p>200</p></div>
+    <div class="color-block bg-iris-800"><p>800</p></div>
+    <div class="color-block bg-iris-700"><p>700</p></div>
+    <div class="color-block bg-iris-600"><p>600</p></div>
+    <div class="color-block-lg bg-iris-500"><p>500</p></div>
+    <div class="color-block bg-iris-400"><p>400</p></div>
+    <div class="color-block bg-iris-300"><p>300</p></div>
+    <div class="color-block bg-iris-200"><p>200</p></div>
 </div>
 
 ### `.bg-violet-*`
@@ -249,17 +249,6 @@ Fluent Design has a broad set of colors, all of them are available to you with R
     <div class="color-block bg-mulberry-200"><p>200</p></div>
 </div>
 
-### `.bg-deep-purple-*`
-<div class="jumbotron color-preview">
-    <div class="color-block bg-deep-purple-800"><p>800</p></div>
-    <div class="color-block bg-deep-purple-700"><p>700</p></div>
-    <div class="color-block bg-deep-purple-600"><p>600</p></div>
-    <div class="color-block-lg bg-deep-purple-500"><p>500</p></div>
-    <div class="color-block bg-deep-purple-400"><p>400</p></div>
-    <div class="color-block bg-deep-purple-300"><p>300</p></div>
-    <div class="color-block bg-deep-purple-200"><p>200</p></div>
-</div>
-
 ### `.bg-purple-*`
 <div class="jumbotron color-preview">
     <div class="color-block bg-purple-800"><p>800</p></div>
@@ -271,26 +260,26 @@ Fluent Design has a broad set of colors, all of them are available to you with R
     <div class="color-block bg-purple-200"><p>200</p></div>
 </div>
 
-### `.bg-light-purple-*`
+### `.bg-magenta-*`
 <div class="jumbotron color-preview">
-    <div class="color-block bg-light-purple-800"><p>800</p></div>
-    <div class="color-block bg-light-purple-700"><p>700</p></div>
-    <div class="color-block bg-light-purple-600"><p>600</p></div>
-    <div class="color-block-lg bg-light-purple-500"><p>500</p></div>
-    <div class="color-block bg-light-purple-400"><p>400</p></div>
-    <div class="color-block bg-light-purple-300"><p>300</p></div>
-    <div class="color-block bg-light-purple-200"><p>200</p></div>
+    <div class="color-block bg-magenta-800"><p>800</p></div>
+    <div class="color-block bg-magenta-700"><p>700</p></div>
+    <div class="color-block bg-magenta-600"><p>600</p></div>
+    <div class="color-block-lg bg-magenta-500"><p>500</p></div>
+    <div class="color-block bg-magenta-400"><p>400</p></div>
+    <div class="color-block bg-magenta-300"><p>300</p></div>
+    <div class="color-block bg-magenta-200"><p>200</p></div>
 </div>
 
-### `.bg-raspberry-*`
+### `.bg-heliotrope-*`
 <div class="jumbotron color-preview">
-    <div class="color-block bg-raspberry-800"><p>800</p></div>
-    <div class="color-block bg-raspberry-700"><p>700</p></div>
-    <div class="color-block bg-raspberry-600"><p>600</p></div>
-    <div class="color-block-lg bg-raspberry-500"><p>500</p></div>
-    <div class="color-block bg-raspberry-400"><p>400</p></div>
-    <div class="color-block bg-raspberry-300"><p>300</p></div>
-    <div class="color-block bg-raspberry-200"><p>200</p></div>
+    <div class="color-block bg-heliotrope-800"><p>800</p></div>
+    <div class="color-block bg-heliotrope-700"><p>700</p></div>
+    <div class="color-block bg-heliotrope-600"><p>600</p></div>
+    <div class="color-block-lg bg-heliotrope-500"><p>500</p></div>
+    <div class="color-block bg-heliotrope-400"><p>400</p></div>
+    <div class="color-block bg-heliotrope-300"><p>300</p></div>
+    <div class="color-block bg-heliotrope-200"><p>200</p></div>
 </div>
 
 ### `.bg-pink-*`
@@ -302,6 +291,17 @@ Fluent Design has a broad set of colors, all of them are available to you with R
     <div class="color-block bg-pink-400"><p>400</p></div>
     <div class="color-block bg-pink-300"><p>300</p></div>
     <div class="color-block bg-pink-200"><p>200</p></div>
+</div>
+
+### `.bg-raspberry-*`
+<div class="jumbotron color-preview">
+    <div class="color-block bg-raspberry-800"><p>800</p></div>
+    <div class="color-block bg-raspberry-700"><p>700</p></div>
+    <div class="color-block bg-raspberry-600"><p>600</p></div>
+    <div class="color-block-lg bg-raspberry-500"><p>500</p></div>
+    <div class="color-block bg-raspberry-400"><p>400</p></div>
+    <div class="color-block bg-raspberry-300"><p>300</p></div>
+    <div class="color-block bg-raspberry-200"><p>200</p></div>
 </div>
 
 ## Text colors
