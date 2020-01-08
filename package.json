@@ -11,6 +11,6 @@
   "author": "Studio 384",
   "license": "MIT",
   "devDependencies": {
-    "node-sass": "^4.9.3"
+    "node-sass": "4.13.0"
   }
 }
